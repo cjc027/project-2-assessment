@@ -12,6 +12,9 @@
 
     <h1><%= title %></h1>
     <ul>
+      <% if (todos.length === 0){ %>
+        <p>There are no To Dos yet!</p>
+      <%} %>
       <% todos.forEach(function(t) { %>
         <li>
           <b><%= t.todo %></b>
