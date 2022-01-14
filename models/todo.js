@@ -1,7 +1,6 @@
 const todos = [
-    // {id: 125223, todo: 'Feed Dogs', done: true},
-    // {id: 127904, todo: 'Learn Express', done: false},
-    // {id: 139608, todo: 'Buy Milk', done: false}
+    {id: 125223, todo: 'Finish Project 2', done: true},
+    {id: 139608, todo: 'Buy Eggs', done: false}
   ];
 
 module.exports = {
